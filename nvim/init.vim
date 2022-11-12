@@ -26,9 +26,16 @@ let mapleader = " "
 " Basic Commands 
 noremap <leader>fs :write<CR> 
 noremap <leader>fq :x<CR>
+noremap <leader>qq :xall<CR>
 
 " Nerdtree
 noremap <leader>. :NERDTreeToggle<CR>
+
+" Git client
+noremap <leader>gg :Git<CR>
+noremap <leader>gc :Git commit<CR>
+noremap <leader>gp :Git push<CR>
+noremap <leader>gf :Git pull<CR>
 
 noremap <leader>db ologging.debug("")<Esc>hi
 
