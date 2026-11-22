@@ -1,34 +1,31 @@
 [window]
 decorations="None"
 
+# Colors (One Dark)
+
+# Default colors
 [colors.primary]
-foreground = "#dddddd"
-background = "#4b4b4b"
+background = '#282c34'
+foreground = '#abb2bf'
 
-[colors.cursor]
-text = "#4b4b4b"
-cursor = "#e2e2e2"
-
-[colors.selection]
-text = "#dddddd"
-background = "#777777"
-
+# Normal colors
 [colors.normal]
-black = "#4b4b4b"
-red = "#e388a3"
-green = "#98bd99"
-yellow = "#ffdf9b"
-blue = "#97bdde"
-magenta = "#a5a6c5"
-cyan = "#6fbdbe"
-white = "#dddddd"
+black   = '#1e2127'
+red     = '#e06c75'
+green   = '#98c379'
+yellow  = '#d19a66'
+blue    = '#61afef'
+magenta = '#c678dd'
+cyan    = '#56b6c2'
+white   = '#abb2bf'
 
+# Bright colors
 [colors.bright]
-black = "#6c6465"
-red = "#eb99b1"
-green = "#8fcd92"
-yellow = "#ffe5b3"
-blue = "#a2c8e9"
-magenta = "#b2b3da"
-cyan = "#6bcacb"
-white = "#a8a8a8"
+black   = '#5c6370'
+red     = '#e06c75'
+green   = '#98c379'
+yellow  = '#d19a66'
+blue    = '#61afef'
+magenta = '#c678dd'
+cyan    = '#56b6c2'
+white   = '#ffffff'
